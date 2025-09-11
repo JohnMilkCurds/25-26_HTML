@@ -6,26 +6,28 @@
 </head>
 <body>
 <h1>Tables</h1>
-<p>The <code>Table</code>tag opens a table. Each row is defined by a <code>tr</code> tag. Each column within a row is
+<p>The <code>Table</code> tag opens a table. Each row is defined by a <code>tr</code> tag. Each column within a row is
     defined by <code>td</code> tag.</p>
 <p> There are lots of attributes that tables can use. Some examples are</p>
 <ul>
-    <li>Border -  This sets a border for the table tag</li>
+    <li>Border -  This sets a border for the table tag </li>
     <li>Width - Sets the width of a table/column </li>
     <li>Height - Sets the height of a table/column </li>
+    <li>Colspan - Sets the number of columns to merge </li>
+    <li>Rowspan - Sets the number of rows to merge </li>
 </ul>
 <table border ="1">
     <tr>
         <th>Water Starters</th>
         <th>Fire Starters</th>
         <th>Grass Starters</th>
+        <th>Electric Starters</th>
     </tr>
-
-
     <tr>
         <td> Squirtle</td>
         <td> Charmander</td>
         <td> Bulbasaur</td>
+        <td rowspan = "2"> Pikachu</td>
     </tr>
     <tr>
         <td> Mudkip</td>
@@ -33,20 +35,6 @@
         <td> Treeko</td>
 
     </tr>
-
-
-
-
-
-
 </table>
-
-
-
-
-
-
-
-
 </body>
 </html>
